@@ -1,27 +1,157 @@
 
-
-:root{
-    --main-bg-gray: #F4F1F1
-}
-
-
+/*init header */
 header {
     background-color: var(--main-bg-gray);
     height: 100px;
-    width: 100vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    font-size: 12px;
+    justify-content: space-between;
 }
 
-header img {
+
+.logo {
     height: 80px;
 }
 
-header a, header div {
+.header-options {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.header-options div, .header-options a {
     display: flex;
     align-items: center;
     column-gap: 5px;
 }
 
+.list{
+    display: none;
+}
+
+@media (max-width: 768px){
+    header{
+        justify-content: space-between;
+    }
+
+    .header-options{
+        display: none;
+    }
+
+    .list{
+        display: block;
+        font-size:30px;
+        margin-right: 5px;
+        color: var(--main-purple)
+    }
+
+  
+}
+/*end header */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+/*init search section */
+main > section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title{
+    font-family: 'Playball', sans-serif;
+    font-size:30px;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.main-title img {
+    width: 30px;
+}
+
+.search{
+    background-color: var(--main-purple);
+    padding:7px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    flex-grow: 0.2;
+    border-radius: 5px;
+    column-gap: 10px;
+}
+
+.search input {
+    width: 100%;
+    background-color: inherit;
+    border: none;
+    outline:none;
+    color: white;
+    font-family: 'Poppins';
+}
+
+input::placeholder{
+    color: white;
+    opacity: 0.8;
+}
+
+
+@media (max-width: 768px){
+    main {
+        padding:5px;
+    }
+
+    .main-title{
+        font-size: 1em;
+    }
+
+    .main-title img{
+        display:none;
+    }
+
+    .search{
+        flex-grow: 0;
+        height: 20px;
+    }
+
+    .search input {
+        display: none;
+    }
+}
+
+
+/*end search section */
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap:30px;
+    height: 50px;
+    border-top: 1px solid var(--main-purple);
+    border-bottom:2px solid var(--main-purple);
+}
+
+.menu li {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu li:hover {
+    background-color: #6864D3;
+    color:white;
+    transition: all linear 0.4s;
+}
+
+@media (max-width: 768px){
+   .menu{
+    display: none;
+   }
+
+  
+}
