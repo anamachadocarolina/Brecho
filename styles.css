@@ -1,6 +1,27 @@
 
 
+:root{
+    --main-bg-gray: #F4F1F1
+}
+
+
 header {
-    
+    background-color: var(--main-bg-gray);
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+header img {
+    height: 80px;
+}
+
+header a, header div {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
 }
 
