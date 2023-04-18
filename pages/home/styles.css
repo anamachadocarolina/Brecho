@@ -148,6 +148,26 @@ input::placeholder{
     transition: all linear 0.4s;
 }
 
+.menu-container{
+   display: flex;
+   position: absolute;
+   top:0;
+   left:0;
+}
+
+.wrapper{
+    width: 100vw;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.5;
+    height: 100vh;
+}
+
+.mobile-menu{
+    height: 100vh;
+    width: 200px;
+    background-color: red;
+}
+
 @media (max-width: 768px){
    .menu{
     display: none;
@@ -155,3 +175,32 @@ input::placeholder{
 
   
 }
+
+.hidden {
+    display: none;
+}
+
+.slide-in {
+    animation: slide-in 0.5s forwards;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .slide-out {
+    animation: slide-out 0.5s forwards
+  }
+  
+  @keyframes slide-out {
+    from {
+        transform: translateX(0%);
+    }to {
+        transform: translateX(-100%);
+    }
+  }
