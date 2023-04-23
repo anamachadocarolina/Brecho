@@ -49,8 +49,10 @@ listIcon.addEventListener("click", () => {
 wrapper.addEventListener("click", () => {
   menuMobile.classList.remove("slide-in");
   menuMobile.classList.add("slide-out");
+ 
   setTimeout(() => {
     menuMobile.classList.add("hidden");
     menuMobile.classList.remove("slide-out");
+  
   }, 500);
 })
