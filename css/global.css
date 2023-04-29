@@ -5,9 +5,10 @@ body {
 }
 
 :root{
-    --main-bg-gray: #F4F1F1
+    --main-bg-gray: #F4F1F1;
     --secondary-gray: #37474F;
-    --main-purple:#534EF3
+    --main-purple:#534EF3;
+    --main-slate: #263238;
 }
 
 
@@ -17,19 +18,23 @@ a, li {
 
 
 .secondary-gray {
-    color: #37474F;
+    color: var(--secondary-gray);
 }
 
 .main-purple {
     color: #534EF3
 }
 
-body{
-    padding: 0px 30px
+main{
+    padding: 30px
 }
 
 @media (max-width:768px){
     body {
         padding:10px;
     }
+}
+
+.hidden {
+    display: none;
 }
