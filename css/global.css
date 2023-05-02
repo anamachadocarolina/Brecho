@@ -5,9 +5,9 @@ body {
 }
 
 :root{
-    --main-bg-gray: #F4F1F1
+    --main-bg-gray: #F4F1F1;
     --secondary-gray: #37474F;
-    --main-purple:#534EF3
+    --main-purple:#534EF3;
 }
 
 

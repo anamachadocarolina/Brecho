@@ -25,7 +25,8 @@ class Header extends HTMLElement {
       <li>Moda Masculina</li>
       <li>Infantil</li>
   </ul>
-  <div class="wrapper"> </div>
+    <div class="wrapper"> 
+    </div>
 </div>
   `
   }
