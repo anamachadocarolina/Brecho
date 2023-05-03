@@ -17,7 +17,26 @@ class Header extends HTMLElement {
           </a>
       </div>
       <i class="ph-bold ph-list list"></i>
-  </header> 
+  </header>
+  <section>
+            <div>
+                <div class="main-title">
+                    <h1 class="secondary-gray">Brechó Flor de Maria</h1>
+                    <img src="../../images/island.png" />
+                </div>
+                <text class="sub-title main-purple">Moda que cabe no bolso</text>
+            </div>
+            <div class="search">
+                <input placeholder="Encontre o que você procura" />
+                <i class="ph-bold ph-magnifying-glass" style="color: white; font-size:20px"></i>
+            </div>
+        </section>
+        <ul class="menu">
+        <li>Tudo</li>
+        <li>Moda Feminina</li>
+        <li>Moda Masculina</li>
+        <li>Infantil</li>
+    </ul> 
   <div class="menu-container hidden">
   <ul class="mobile-menu">
       <li>Tudo</li>
