@@ -90,15 +90,11 @@ main {
     text-align: center;
     padding: 30px;
 }
-.seetoo .lastaddeditems .completeyourlook h3::before {
-    content: "";
-    position: absolute;
-    left: 2.5%;
-    bottom: -10px;
+.seetoo hr{
     width: 5%;
     height: 5px;
-    transform: skew(-12deg) translateX(-50%);
-    background: #726DFC
+    transform: skew(-12deg);
+    background-color: #726DFC;
 }
 .products-container{
     display: flex;
