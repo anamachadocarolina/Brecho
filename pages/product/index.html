@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
 
     <link rel="stylesheet" href="../../css/reset.css" />
     <link rel="stylesheet" href="../../css/header.css" />
@@ -16,102 +16,107 @@
 
     <title>Produto</title>
 </head>
+
 <body>
     <main-header></main-header>
-        <div class="productsolo-container">
-            <div class="container-image"> 
-                <div class="container-smallimage">
+    <main>
+        <div class="product-infos-container">
+            <div class="container-image">
+                <div class="prev-images">
                     <img src="../../images/vestido.png" />
                     <img src="../../images/vestido.png" />
+                    
                 </div>
-                    <img src="../../images/vestido.png" class="bigimage" />
+                <img class="active-image" src="../../images/vestido.png" />
             </div>
             <div class="details">
-                <div>
+                <div class="product-name">
                     <h2>Vestido Florido</h2>
                     <span>vestido florido de algodão com alça ajustável</span>
                 </div>
-                <div>
-                    <span><b>R$ 10,00</b></span>
+                <div class="product-price">
+                    <h3>R$ 10,00</h3>
                     <span>Parcelado: 2x R$ 5,00</span>
                 </div>
-                <div>
+                <div class="product-size">
                     <span>Tamanho:</span>
-                    <span class="data small">42-44(G)</span>
+                    <span class="">42-44(G)</span>
                 </div>
-                <div>
-                    <span class="data small">Adicionar ao carrinho</span>
+                <div class="product-actions">
+                    <button class="button-primary ">Adicionar ao carrinho</button>
+                <div class="calculate-shipping">
+                    <button class="button-primary">Calcular Frete</button>
+                    <input placeholder="Insira o CEP" />           
                 </div>
-                    <span>Consulte frete e prazo de entrega</span>
-                <div>
-                    <span>Adicione seu cep</span>
-                    <span class="data small">
-                        <input placeholder="seu cep" />
-                    </span>
-                    <span class="data small">Consultar</span>
                 </div>
             </div>
         </div>
-    <div>
-        <div class="seetoo"><h3>Veja também</h3>
-        <hr>
+        <div class="recommendations">
+            <div class="see-too">
+                <h3>Veja também</h3>
+                <hr />
+            </div>
+            <div class="product-recommendations-label">
+                <h4>Últimos itens adicionados</h4>
+                <div></div>
+            </div>
+            <aside class="products-container">
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+            </aside>
+            <div class="product-recommendations-label">
+                <h4>Itens para completar seu look</h4>
+                <div></div>
+            </div>
+            <aside class="products-container">
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+                <div class="product">
+                    <img src="../../images/vestido.png" />
+                    <span class="title">Vestido Florido</span>
+                    <span class="price">R$ 10,00</span>
+                </div>
+            </aside>
         </div>
-        <div class="lastaddeditems"><h3>Últimos itens adicionados</h3>
-        <hr>
-        </div>
-        <aside class="products-container">
-            <div class="product">
-                <img src="../../images/vestido.png" />
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-            <div class="product">
-                <img src="../../images/vestido.png" />
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-            <div class="product">
-                <img src="../../images/vestido.png" />
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-            <div class="product">
-                <img src="../../images/vestido.png" />
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-        </aside>
-        <div class="completeyourlook"><h3>Itens para completar seu look</h3>
-        <hr>
-        </div>
-        <aside class="products-container">
-            <div class="product">
-                <img src="../../images/vestido.png" />
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-            <div class="product">
-                <img src="../../images/vestido.png"/>
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-            <div class="product">
-                <img src="../../images/vestido.png"/>
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-            <div class="product">
-                <img src="../../images/vestido.png" />
-                <span class="title">Vestido Florido</span>
-                <span class="price">R$ 10,00</span>
-            </div>
-        </aside>
-    </div>
     </main>
+
+
     <main-footer></main-footer>
 
     <script src="../../js/header.js"></script>
     <script src="../../js/footer.js"></script>
-    
+
 </body>
+
 </html>

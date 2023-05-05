@@ -27,10 +27,6 @@ header {
 }
 
 @media (max-width: 768px){
-    header{
-        justify-content: space-between;
-    }
-
     .header-options{
         display: none;
     }
@@ -48,6 +44,7 @@ header {
     position: absolute;
     top:0;
     left:0;
+    z-index: 1;
  }
  
  .wrapper{
