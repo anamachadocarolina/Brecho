@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minha Sacola</title>
-    
+
     <link rel="stylesheet" href="../../css/reset.css" />
     <link rel="stylesheet" href="../../css/header.css" />
     <link rel="stylesheet" href="../../css/global.css" />
@@ -14,10 +15,86 @@
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/fill/style.css" />
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css" />
 </head>
+
 <body>
     <main-header></main-header>
+    <main class="container-content">
+        <div class="container-bag-resume">
+            <div class="text-resume-bag">
+                <h2>Resumo - Sacola de compras</h2>
+            </div>
+            <div class="product-infos-container">
+                <div class="container-image">
+                    <img class="active-image" src="../../images/vestido.png" />
+                </div>
+                <div class="details">
+                    <div class="product-name">
+                        <h2>Vestido Florido</h2>
+                        <span>vestido florido de algodão com alça ajustável</span>
+                    </div>
+                    <div class="product-price">
+                        <h3>R$ 10,00</h3>
+                        <span>Parcelado: 2x R$ 5,00</span>
+                    </div>
+                    <div class="product-size">
+                        <span>Tamanho:</span>
+                        <span class="">42-44(G)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-infos-container">
+                <div class="container-image">
+                    <img class="active-image" src="../../images/vestido.png" />
+                </div>
+                <div class="details">
+                    <div class="product-name">
+                        <h2>Vestido Florido</h2>
+                        <span>vestido florido de algodão com alça ajustável</span>
+                    </div>
+                    <div class="product-price">
+                        <h3>R$ 10,00</h3>
+                        <span>Parcelado: 2x R$ 5,00</span>
+                    </div>
+                    <div class="product-size">
+                        <span>Tamanho:</span>
+                        <span class="">42-44(G)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-bag-infos">
+            <div class="text-resume-price">
+                <h2>Subtotal(2 itens) R$ 40,00</h2>
+            </div>
+            <div>
+                <div class="text-resume-purchase">
+                    <div>
+                        <h2>Total</h2>
+                    </div>
+                    <div>
+                        <h2>R$ 40,00</h2>
+                        <span>Em até 4x de R$ 10,00</span>
+                    </div>
+                </div>
+                <div class="product-actions-finish">
+                    <button class="button-primary">Finalizar compra
+                        <br>
+                        <span>(Ir para método de pagamento)</span>
+                    </button>
+                </div>
+                <div class="product-actions-keep-buying">
+                    <button class="button-primary">Continuar comprando</button>
+                </div>
+            </div>
+            <div class="calculate-shipping">
+                <button class="button-primary">Calcular Frete</button>
+                <input placeholder="Insira o CEP" />
+            </div>
+        </div>
+    </main>
     <main-footer></main-footer>
     <script src="../../js/header.js"></script>
     <script src="../../js/footer.js"></script>
 </body>
+
 </html>

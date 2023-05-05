@@ -7,9 +7,8 @@ header {
 }
 
 .logo {
-    height: 80px;
+    height: 90px;
 }
-
 .header-options {
     display: flex;
     align-items: center;
@@ -68,7 +67,7 @@ section {
     column-gap: 5px;
 }
 .main-title img {
-    width: 30px;
+    width: 45px;
 }
 .search {
     background-color: var(--main-purple);

@@ -2,7 +2,7 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <footer id="footer-container">
-      <img class="logo-footer" src="../../images/logo-footer.png" alt="Logo" />
+      <img class="logo-footer" src="../../images/logofooter.png" alt="Logo" />
       <div class="footer-options">
           <div class="address">
               <i class="ph-fill ph-map-pin" style="color: #534EF3"></i>
