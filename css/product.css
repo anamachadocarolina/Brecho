@@ -44,12 +44,12 @@
 }
 
 .product-price h3 {
-    font-size:24px;
+    font-size:12px;
     font-weight: 500;
 }
 
 .product-name h2{
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 500;
     color: var(--main-slate)
 }
@@ -91,32 +91,34 @@
 .calculate-shipping input::placeholder {
     color:#726DFC;
     opacity: 0.8;
-    font-size:14px;
+    font-size:12px;
 }
 
-.recommendations h3 {
-    text-align: center;
-    font-weight: 600;
-}
+
 
 .see-too {
     margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
 }
 
-.see-too hr{
+.see-too div{
     background-color: gray;
-    height: 3px;
+    height: 5px;
     width: 5%;
+}
+.product-recommendations-label div{
+    margin-top: 5px;
+    background-color: #726DFC;
+    height: 5px;
+    width: 7%; 
+    transform: skew(-12deg);
+
 }
 
 .recommendations span {
-    font-size:18px;
+    font-size:12px;
     margin-top:20px;
-}
-
-
-
-
-.product-recommendations-label hr{
-    width: -50%;    
 }
