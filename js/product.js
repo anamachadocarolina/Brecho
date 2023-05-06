@@ -10,7 +10,7 @@ containersArr.map(container => {
             <div class="product-infos">
                 <span class="title">Vestido Florido</span>
                 <span class="price">R$ 10,00</span>
-                <span class="installmente">2x de R$ 5,00</span>
+                <span class="installment">2x de R$ 5,00</span>
             </div>
         </div>
      `
