@@ -127,12 +127,11 @@ input::placeholder {
     color: var(--main-purple)
 }
 
-h3 {
-    font-size:25px;
+.product-label{
+    font-size:20px;
     position: relative;
-    font-weight: normal;
-}
 
+}
 
 .products {
     display: flex;
@@ -147,4 +146,56 @@ h3 {
     background-color: var(--main-purple);
     transform: skew(-12deg) 
 }
+
+.faqs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.faqs h5{
+    font-size:20px;
+    margin-bottom: 100px;
+}
+
+.faqs img {
+    width: 330px;
+}
+
+.faqs-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+   
+}
+
+.accordion{
+    width: 40%;
+    color:white;
+}
+
+.accordion-button {
+    background-color: #6864D3;
+    color:white;
+}
+
+button.accordion-button[aria-expanded="true"]{
+    background-color: #6864D3;
+    color:white;
+}
+
+button.accordion-button::before{
+    background-color: #6864D3;
+    color:white;
+}
+
+
+.accordion-item{
+    background-color: #6864D3;
+    color: #E6E6E6;
+    font-weight: normal;
+}
+
 

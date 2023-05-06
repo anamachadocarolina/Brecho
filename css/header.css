@@ -1,9 +1,11 @@
 header {
     background-color: var(--main-bg-gray);
-    height: 100px;
+    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
+    font-size:12px;
+    padding:10px;
 }
 
 .logo {
@@ -94,7 +96,7 @@ section {
 input::placeholder {
     color: white;
     opacity: 0.8;
-    font-size:14px;
+    font-size:12px;
 }
 ul{
     margin: 0 30px;
@@ -105,8 +107,7 @@ ul{
     align-items: center;
     column-gap: 30px;
     height: 50px;
-    border-top: 1px solid var(--main-purple);
-    border-bottom: 2px solid var(--main-purple);
+    font-size:14px;
 }
 
 .menu li {
